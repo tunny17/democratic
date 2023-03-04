@@ -1,0 +1,10 @@
+export { default as globe } from './globe.svg';
+export { default as logo } from './logo.svg';
+export { default as post1 } from './post1.png';
+export { default as post2 } from './post2.png';
+export { default as post3 } from './post3.png';
+export { default as post4 } from './post4.png';
+export { default as slide1 } from './slide1.png';
+export { default as slide2 } from './slide2.png';
+export { default as slide3 } from './slide3.png';
+export { default as slide4 } from './slide4.png';
