@@ -4,12 +4,12 @@ import { Body, Footer, Hero, Navbar } from './components'
 
 function App() {
   return (
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <Body />
       <Footer />
-    </div>
+    </main>
   );
 }
 
