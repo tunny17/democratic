@@ -1,0 +1,79 @@
+.body-container {
+    padding: 3% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.body-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+figure img {
+    width: 100%;
+    height: 27vh;
+}
+
+figure {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #F3F3F3;
+    transition: 0.4s ease;
+}
+
+.content1 figure {
+    padding-bottom: 12%;
+}
+.content2 figure {
+    padding-bottom: 10%;
+}
+.content3 figure {
+    padding-bottom: 40%;
+}
+
+.figure2 {
+    margin-top: 5%;
+}
+
+caption,
+figcaption {
+    padding: 5% 8%;
+}
+
+caption {
+    text-align: unset;
+    font-size: 1rem;
+    font-weight: 700;
+}
+figcaption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+figure button {
+    width: 45%;
+    color: #fff;
+    padding: 3% 7%;
+    margin-left: 8%;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    background: #2A9135;
+    border-radius: 2px;
+    border: none;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+}
+figure button::after {
+    content: url(../../assets/arrow.svg);
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    zoom: 70%;
+}
