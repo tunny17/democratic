@@ -12,7 +12,11 @@ const Hero = () => {
         alt="img1"
         className='carousel-image'
         />
-        {/* <h1 className='figure'>01</h1> */}
+        <div  className='text-content'>
+          <h3>GET ELECTION UPDATES</h3>
+          <p>Follow Election updates, predictions, real-time <br /> results and get more information <br />from INEC’s press release</p>
+          <button>LIVE ELECTIONS</button>
+        </div>
       </div>
       <div>
         <img
@@ -20,7 +24,11 @@ const Hero = () => {
         alt="img3"
         className='carousel-image'
         />
-        {/* <h1 className='figure'>02</h1> */}
+        <div  className='text-content'>
+          <h3>LIVE STREAM ELECTIONS</h3>
+          <p> Get the latest coverage, Live stream videos and <br /> photos for the 2023 Governorship election.</p>
+          <button>LIVE ELECTIONS</button>
+        </div>
       </div>
       <div>
         <img
@@ -28,7 +36,11 @@ const Hero = () => {
         alt="img2"
         className='carousel-image'
         />
-        {/* <h1 className='figure'>03</h1> */}
+        <div  className='text-content'>
+          <h3>REPORT IRREGULARITIES</h3>
+          <p>Get access to eye Witness reports at polling units <br /> and report vote disruption and thuggery at your <br /> polling centre. </p>
+          <button>LIVE ELECTIONS</button>
+        </div>
       </div>
       <div>
         <img
@@ -36,7 +48,11 @@ const Hero = () => {
         alt="img2"
         className='carousel-image'
         />
-        {/* <h1 className='figure'>04</h1> */}
+        <div  className='text-content'>
+          <h3>EXPLORE RECORDS</h3>
+          <p>Share political thoughts and ideas about your desired <br /> candidates and engage with individuals about ongoing <br /> elections, interests and voting experiences.</p>
+          <button>LIVE ELECTIONS</button>
+        </div>
       </div>
     </Carousel>
   )

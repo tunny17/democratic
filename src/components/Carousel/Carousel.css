@@ -7,7 +7,7 @@
   position: relative;
   left: 0;
   width: 100%;
-  height: 80vh;
+  height: 60vh;
 }
 
 .show {
@@ -113,15 +113,17 @@ button {
 
 .page {
   width: 100%;
+  /* height: 20vh; */
+  /* margin-top: 30%; */
   position: absolute;
-  bottom: 10%;
-  left: 0;
+  bottom: 48%;
+  left: 2%;
 }
 .dot {
   cursor: pointer;
   height: 6px;
-  width: 3%;
-  margin: 0 0.5rem;
+  width: 1%;
+  margin: 0 0.1rem;
   border-radius: 10px;
   background-color: #ddd;
   display: inline-flex;
@@ -133,4 +135,10 @@ button:hover,
 .active {
   background-color: #2A9135;
   opacity: 1;
+}
+
+.active {
+  background-color: #2A9135;
+  opacity: 1;
+  width: 3%;
 }
