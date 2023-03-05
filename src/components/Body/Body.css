@@ -101,4 +101,10 @@ figure button::after {
     top: 35%;
     right: 10%;
     zoom: 70%;
+    transition: 1s ease;
+}
+figure button:hover:after {
+    opacity: 0;
+    right: -100%;
+    transition: 1s ease;
 }

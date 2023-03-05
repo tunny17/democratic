@@ -41,4 +41,10 @@
     position: absolute;
     left: 150px;
     bottom: -90px;
+    transition: 0.5s ease;
+}
+.text-content button:hover {
+    background: transparent;
+    border: 1px solid #2A9135;
+    transition: 0.5s ease;
 }

@@ -43,6 +43,22 @@ nav ul li {
     font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+nav ul li::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: 1s ease;
+    background: #2A9135;
+}
+nav ul li:hover::after {
+    width: 50%;
+    transition: 1s ease;
 }
 .globe-container {
     width: 8%;

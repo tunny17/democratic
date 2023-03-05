@@ -1,0 +1,22 @@
+.footer-container {
+    padding: 3% 3% 2% 3%;
+    background: #F3F3F3;
+}
+.footer-container div:nth-child(2) {
+    width: 35%;
+    display: flex;
+    padding: 2% 0;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.footer-container img {
+    width: 15%;
+}
+.footer-container div:last-child {
+    padding: 1% 0 0 0;
+    font-weight: 400;
+    /* font-size: 20px; */
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
