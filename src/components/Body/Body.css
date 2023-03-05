@@ -11,6 +11,27 @@
     justify-content: space-between;
 }
 
+header {
+    margin-bottom: 3%;
+}
+header h3 {
+    font-family: 'Nova Square';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 36px;
+    position: relative;
+}
+header h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 10%;
+    height: 2px;
+    background: #2A9135;
+}
+
 figure img {
     width: 100%;
     height: 27vh;
@@ -20,19 +41,18 @@ figure {
     width: 325px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
     background: #F3F3F3;
-    transition: 0.4s ease;
 }
 
 .content1 figure {
-    padding-bottom: 12%;
+    padding-bottom: 10%;
 }
 .content2 figure {
     padding-bottom: 10%;
 }
 .content3 figure {
-    padding-bottom: 40%;
+    padding-bottom: 10%;
 }
 
 .figure2 {
@@ -45,11 +65,14 @@ figcaption {
 }
 
 caption {
-    text-align: unset;
+    width: 100%;
+    height: 10vh;
     font-size: 1rem;
     font-weight: 700;
+    padding-bottom: 30px;
 }
 figcaption {
+    padding-top: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 0.9rem;
@@ -57,6 +80,8 @@ figcaption {
 }
 
 figure button {
+    position: absolute;
+    bottom: 0px;
     width: 45%;
     color: #fff;
     padding: 3% 7%;

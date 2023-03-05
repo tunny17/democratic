@@ -12,7 +12,7 @@
     background-color: #fff;
 }
 .logo-container {
-    width: 19%;    
+    width: 20%;    
     display: flex;
     align-items: center;
 }
@@ -22,7 +22,7 @@
     font-size: 1.2rem;
     border-left: 1px solid #000;
     text-transform: uppercase;
-    font-family: 'Nova Square', cursive;
+    font-family: 'Yatra One', cursive;
 }
 .logo-container img {
     width: 25%;
