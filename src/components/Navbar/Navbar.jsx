@@ -5,7 +5,7 @@ import { globe, logo } from '../../assets'
 
 const Navbar = () => {
   return (
-    <div className="navbar-container">
+    <div className="navbar-container"  >
       <div className="logo-container">
         <img src={logo} alt="a logo" />
         <h2>Democratic</h2>

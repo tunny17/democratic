@@ -7,10 +7,10 @@
   /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Work Sans', sans-serif;
 }
-
+/* 
 body::-webkit-scrollbar {
   display: none;
-}
+} */
 
 body {
   overflow-x: hidden;

@@ -4,7 +4,7 @@ import { post1, post2, post3, post4 } from '../../assets'
 
 const Body = () => {
   return (
-    <div className='body-container'>
+    <div className='body-container'  data-scroll-section>
       <header>
         <h3>Trending Stories</h3>
       </header>

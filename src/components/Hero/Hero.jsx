@@ -5,7 +5,7 @@ import { slide1, slide2, slide3, slide4 } from '../../assets'
 
 const Hero = () => {
   return (
-    <Carousel>
+    <Carousel data-scroll-section>
       <div>
         <img
         src={slide1}

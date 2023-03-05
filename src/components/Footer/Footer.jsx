@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div  className='footer-container'>
+    <div  className='footer-container'  data-scroll-section>
       <div className="logo-container">
         <img src={logo} alt="a logo" />
         <h2>Democratic</h2>

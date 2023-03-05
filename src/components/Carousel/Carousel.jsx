@@ -42,7 +42,7 @@ const Carousel = ({ children }) => {
   });
 
   return (
-    <div className="App">
+    <div className="App"  data-scroll-section>
       <div
         className="slide"
         onMouseEnter={handleMouse}
