@@ -19,7 +19,7 @@ const Body = () => {
           <figure className='figure2'>
             <img src={post4} alt="" />
             <caption>INEC Chairman in Ilorin, Kwara State</caption>
-            <figcaption>Professor Mahmoud Yakub, Chairman of INEC, has expressed the readiness of the commission.. <br />Lorem ipsum dolor sit amet  </figcaption>
+            <figcaption>Professor Mahmoud Yakub, Chairman of INEC, has expressed the readiness of the commission.. <br /> <br />  </figcaption>
             <button>Read More</button>
           </figure>
         </div>
