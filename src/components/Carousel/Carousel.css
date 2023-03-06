@@ -106,9 +106,9 @@
 }
 
 button {
-  border: 0;
+  /* border: 0;
   background-color: Transparent;
-  font-size: 20px;
+  font-size: 20px; */
 }
 
 .page {
@@ -116,8 +116,8 @@ button {
   /* height: 20vh; */
   /* margin-top: 30%; */
   position: absolute;
-  bottom: 37%;
-  left: 1.3rem;
+  bottom: 39%;
+  left: 3.5rem;
 }
 .dot {
   cursor: pointer;
