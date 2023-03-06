@@ -117,7 +117,7 @@ button {
   /* margin-top: 30%; */
   position: absolute;
   bottom: 39%;
-  left: 3.5rem;
+  left: 0;
 }
 .dot {
   cursor: pointer;
